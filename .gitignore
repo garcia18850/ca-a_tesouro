@@ -1,0 +1,47 @@
+# Dependencies and build output
+node_modules/
+.next/
+.next-tesouro/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Logs and local test output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+test-results/
+playwright-report/
+coverage/
+*.tmp
+*.base64
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Platform runtime files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+downloads/
