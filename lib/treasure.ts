@@ -8,11 +8,11 @@ export interface TreasureClue {
 }
 
 export const treasureStops = [
-  { id: 'praia', name: 'Praia das Conchas', shortName: 'Praia', color: '#f7bf44', icon: 'shell', x: 21, y: 77 },
-  { id: 'ponte', name: 'Ponte do Rio Azul', shortName: 'Ponte', color: '#f48b65', icon: 'bridge', x: 70, y: 64 },
-  { id: 'bosque', name: 'Bosque dos Coqueiros', shortName: 'Bosque', color: '#78c96f', icon: 'palm', x: 27, y: 48 },
-  { id: 'papagaio', name: 'Cantinho do Papagaio', shortName: 'Papagaio', color: '#bc96ed', icon: 'parrot', x: 70, y: 32 },
-  { id: 'tesouro', name: 'Esconderijo do Tesouro', shortName: 'Tesouro', color: '#ffc748', icon: 'chest', x: 38, y: 14 },
+  { id: 'praia', name: 'Praia das Conchas', shortName: 'Praia', color: '#ffd05a', icon: 'shell', x: 21, y: 77 },
+  { id: 'ponte', name: 'Ponte do Rio Azul', shortName: 'Ponte', color: '#ff9470', icon: 'bridge', x: 70, y: 64 },
+  { id: 'bosque', name: 'Bosque dos Coqueiros', shortName: 'Bosque', color: '#80ce7d', icon: 'palm', x: 27, y: 48 },
+  { id: 'papagaio', name: 'Cantinho do Papagaio', shortName: 'Papagaio', color: '#c4a0f0', icon: 'parrot', x: 70, y: 32 },
+  { id: 'tesouro', name: 'Esconderijo do Tesouro', shortName: 'Tesouro', color: '#ffca43', icon: 'chest', x: 38, y: 14 },
 ] as const
 
 // Only second-year content: short reading, syllables, quantities, shapes and nature.
