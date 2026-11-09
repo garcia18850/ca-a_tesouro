@@ -6,7 +6,6 @@ const treasureProjectRoot = fileURLToPath(new URL('.', import.meta.url))
 const nextConfig = {
   outputFileTracingRoot: treasureProjectRoot,
   turbopack: { root: treasureProjectRoot },
-  distDir: '.next-tesouro',
   images: {
     unoptimized: true,
   },

@@ -46,3 +46,13 @@ Esta pasta contém somente a Ilha do Tesouro do 2º ano. Pode ser aberta ou copi
 Execute `npm run dev` para abrir em http://localhost:3100. Para produção, execute `npm run build` e depois `npm start`; a porta também será 3100.
 
 No Windows, também é possível dar dois cliques em `iniciar-ilha-do-tesouro.cmd` para iniciar esta versão.
+
+## Publicar na Vercel
+
+Importe o repositório `garcia18850/ca-a_tesouro` com o framework **Next.js** e a raiz do projeto em `./`.
+
+- Build Command: `npm run build`.
+- Output Directory: padrão automático do Next.js (`.next`).
+- Não configure `.next-tesouro` como pasta de saída.
+
+O projeto usa a pasta padrão `.next` tanto localmente quanto na Vercel. Após atualizar o código, faça o deploy do commit mais recente da branch `main`.
